@@ -9,8 +9,9 @@ Implement the TODO comments to the best of your ability.  In addition, you shoul
 
 You can download this project, make your changes, zip/tar it up and send it along with your resume, or if you want to impress us, fork it, put your changes in, and send along the url.
 
-This test should take less than an hour.  You WILL be given another (quite different) test if you interview here, so please don't bother cheating.
+This test should no more than a few hours.  You WILL be given another (quite different) test if you interview here, so please don't bother cheating.
 
+And yes, we know it's a mess as it is now, that was on purpose :-)
 
 Thank you,
 Rob Conklin 
