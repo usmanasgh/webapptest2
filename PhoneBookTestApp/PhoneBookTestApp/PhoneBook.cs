@@ -2,14 +2,21 @@
 {
     public class PhoneBook : IPhoneBook
     {
-        public void AddPerson(Person person)
+        public void addPerson(Person newPerson)
         {
-            throw new System.NotImplementedException();
+            DatabaseUtil.AddPerson(newPerson.name, newPerson.phoneNumber, newPerson.address);
         }
 
-        public Person findPerson()
+        public Person findPerson(string firstName, string lastName)
         {
-            throw new System.NotImplementedException();
+            Person findPerson = new Person();
+            findPerson = DatabaseUtil.findPerson(firstName, lastName);
+            return findPerson;
+        }
+         
+        public string printPhonebook()
+        {
+            return DatabaseUtil.printPhonebook();
         }
     }
 }
